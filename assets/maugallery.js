@@ -228,7 +228,7 @@
         return;
       }
       $(".active-tag").removeClass("active active-tag");
-      $(this).addClass("active active-tag");
+      $(this).addClass("active active-tag"); //catégories dorées 
 
       var tag = $(this).data("images-toggle");
 
